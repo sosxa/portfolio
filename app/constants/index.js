@@ -49,7 +49,7 @@ export const EXPERIENCES = [
     year: "2023 - Present",
     role: "Full Stack Developer Internship",
     company: "HuggleGroup (prev HuggleHounds)",
-    description: `Worked with a team of three to relaunch the company website, enhancing accessibility to meet ADA compliance standards measured by UserWay Accessibe and W3C guidelines. Improved load times by 3.2 seconds measured by PageSpeed and developed landing pages for new product lines, and provided engaging SEO for users.`,
+    description: `During my internship at HuggleGroup, I executed the website's relaunch by collaborating closely with the UI/UX team to ensure seamless integration of design requirements with front-end and back-end development using ReactJS, NodeJS, and PostgreSQL. I successfully achieved ADA compliance, leveraging tools like Accessibe, UserWay, and W3C, and reduced website loading time by 3.2 seconds, as measured by PageSpeed. Additionally, I facilitated and managed ongoing website updates, aligning with company trends, product lines, sales, and discounts to optimize user engagement and conversions.`,
     technologies: ["Javascript", "React.js", "Node.js", "PostgreSQL"],
   }
 ];

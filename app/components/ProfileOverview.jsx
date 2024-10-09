@@ -1,7 +1,7 @@
 'use client';
 import React from 'react'
 import Image from 'next/image';
-import Profilepic from "../../public/patrickBravo.jpeg"
+import Profilepic from "../../public/pfp.png"
 import { PROFILE } from "../constants"
 import { FaDownload } from "react-icons/fa6"
 import { motion } from "framer-motion"
@@ -25,7 +25,7 @@ const ProfileOverview = () => {
                 <h1 className="text-2xl font-bold">{PROFILE.name}</h1>
                 <p className="tracking-tighter">{PROFILE.city}</p>
                 <a
-                    href="/patrick.pdf"
+                    href="/resume.pdf"
                     target="_blank"
                     rel="noopener noreferrer"
                     download
@@ -46,8 +46,9 @@ const ProfileOverview = () => {
                     ))}
                 </p>
                 <p className="mb-10 max-w-2xl p-1 text-center text-xl tracking-tight text-slate-400 lg:text-3xl">
-                    I’m an aspiring <span className="border-b font-medium text-slate-200">Full Stack Developer</span> currently studying Computer Science. I hope to grow my skills—both technically and creatively—so I can make the <span className="font-medium text-slate-200">user experience</span> as <span className="font-medium text-slate-200">smooth</span> as possible for everyone.
+                    I’m an aspiring <span className="border-b font-medium text-slate-200">Full Stack Developer</span> with a passion for both technical problem solving skills and creative thinking. Currently studying Computer Science, I plan to grow my skills to create <span className="font-medium text-slate-200">intuitive</span> and <span className="font-medium text-slate-200">seamless</span> user experiences that surprise users.
                 </p>
+
 
 
             </motion.div>
